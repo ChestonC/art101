@@ -1,5 +1,3 @@
-console.log("My JavaScript loaded.");
-function names(firstName, lastName) {
-  
-}
-console.log("My first name is: " + firstName + ", " + "My last name is: " + lastName);
+setTimeout(function() {
+     console.log(“I am so tired”);
+   }, 3000);
