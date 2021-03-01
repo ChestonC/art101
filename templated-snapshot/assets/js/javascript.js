@@ -5,5 +5,7 @@ function submitBio() {
   console.log(emailVar);
   var messageVar = document.getElementById("message").value;
   console.log(messageVar);
+  document.getElementById("name_email_id").innerHTML = nameVar + " Email: " + emailVar;
+  document.getElementById("Bio_id").innerHTML = messageVar;
 }
 document.getElementById("bio_submit_id").addEventListener('click', submitBio);

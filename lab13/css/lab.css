@@ -1,0 +1,23 @@
+body {
+  background-color: lightblue;
+  border-style: dotted;
+}
+
+h2 {
+  text-align: center;
+  font-size: 150%;
+  font-style: italic;
+  font-family: inherit;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 130%;
+  font-family: monospace;
+}
+
+div{
+  font-family: cursive;
+  border: 2px solid black;
+  background-color: #FACF91;
+}
