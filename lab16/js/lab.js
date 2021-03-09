@@ -25,6 +25,7 @@ buttonEl.addEventListener("click", function(){
           picture.src = comic.img;
           document.getElementById("author").textContent = "Title: " + comic.title;
           picture.alt = comic.alt;
+          console.log(comic);
       },
       // What we do if the api call fails
       error: function (jqXHR, textStatus, errorThrown) {
@@ -32,5 +33,4 @@ buttonEl.addEventListener("click", function(){
           console.log("Error:", textStatus, errorThrown);
       }
   })
-  console.log(comic);
 });
