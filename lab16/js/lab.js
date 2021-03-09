@@ -10,9 +10,9 @@ buttonEl.addEventListener("click", function(){
       // The URL for the request (from the api docs)
       url: "http://xkcd.com/info.0.json",
       // The data to send (will be converted to a query string)
-      /data: {
+      data: {
         api_key: "X92XrOhK65HfUY9pq7XXzon2Z5TAmsmmpJ0J3I4S",
-      },/
+      },
       // Whether this is a POST or GET request
       type: "GET",
       // The type of data we expect back
@@ -32,4 +32,5 @@ buttonEl.addEventListener("click", function(){
           console.log("Error:", textStatus, errorThrown);
       }
   })
+  console.log(comic);
 });
